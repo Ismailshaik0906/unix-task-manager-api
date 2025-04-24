@@ -3,10 +3,10 @@
 A simple **Unix-inspired task manager API** built with **Django** and **Django REST Framework**. This project simulates basic Unix-like task management, where tasks can be created, listed, and updated (similar to Unix processes using `fork`).
 
 ## 🚀 Features
-- **Create Task** (`POST /tasks/`) – Fork a new task.
-- **List Tasks** (`GET /tasks/`) – List all tasks.
-- **Get Task Details** (`GET /tasks/{id}/`) – Retrieve task by ID.
-- **Update Task** (`PUT /tasks/{id}/`) – Update task status (e.g., mark as completed).
+- **Create Task** (`POST /api/`) – Fork a new task.
+- **List Tasks** (`GET /api/tasks/`) – List all tasks.
+- **Get Task Details** (`GET /api/tasks/{id}/`) – Retrieve task by ID.
+- **Update Task** (`PUT /api/tasks/{id}/`) – Update task status (e.g., mark as completed).
 - **Delete Task** (`DELETE /tasks/{id}/`) – Remove a task.
 
 ## ⚙️ Setup Instructions
